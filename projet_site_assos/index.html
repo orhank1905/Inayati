@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Inayati - Association Humanitaire</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- SPLASH -->
+<div id="splash">
+  <div class="splash-icon">
+    <img src="images/logo.png" alt="Inayati" />
+  </div>
+  <div class="splash-bar"></div>
+</div>
+
+<!-- NAVBAR -->
+<nav>
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo"><img src="images/logo.png" alt="Inayati" /></a>
+    <ul class="nav-links">
+      <li><a href="index.html" data-page="index" class="active">Accueil</a></li>
+      <li><a href="turquie.html" data-page="turquie">Projet Turquie</a></li>
+      <li><a href="actions.html" data-page="actions">Nos actions</a></li>
+      <li><a href="evenements.html" data-page="evenements">Nos événements</a></li>
+      <li><a href="dons.html" class="btn-nav">Faire un don</a></li>
+      <li><a href="contact.html" data-page="contact">Contact</a></li>
+    </ul>
+    <button class="nav-burger" id="nav-burger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+<div class="nav-mobile" id="nav-mobile">
+  <a href="index.html">Accueil</a>
+  <a href="turquie.html">Projet Turquie</a>
+  <a href="actions.html">Nos actions</a>
+  <a href="evenements.html">Nos événements</a>
+  <a href="contact.html">Contact</a>
+  <a href="dons.html" class="btn-nav">Faire un don</a>
+</div>
+
+<main>
+
+  <!-- HERO -->
+  <section class="bg-warm" style="position:relative;min-height:90vh;display:flex;align-items:center;justify-content:center;text-align:center;overflow:hidden;">
+    <div class="blob-orange"></div>
+    <div class="blob-blue"></div>
+    <div style="max-width:720px;">
+      <img src="images/logo.png" alt="Inayati" style="height:96px;width:auto;object-fit:contain;margin-bottom:32px;" />
+      <div class="slogan-box">
+        <p class="slogan-text fade-in-slogan" id="slogan">Toute grande histoire commence par un rêve</p>
+      </div>
+      <p style="font-size:1.1rem;color:var(--text-muted);margin-bottom:36px;max-width:520px;margin-left:auto;margin-right:auto;">
+        Inayati est une association humanitaire qui transforme chaque geste de solidarité en espoir concret pour ceux qui en ont besoin.
+      </p>
+      <div class="btn-group" style="justify-content:center;">
+        <a href="dons.html" class="btn btn-primary">Faire un don</a>
+        <a href="actions.html" class="btn btn-outline">Nos actions</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <div class="stats-band orange">
+    <div class="stats-grid">
+      <div class="stat fade-up" data-delay="0">
+        <div class="stat-icon">❤️</div>
+        <div class="stat-value">500+</div>
+        <div class="stat-label">Familles aidées</div>
+      </div>
+      <div class="stat fade-up" data-delay="100">
+        <div class="stat-icon">🙌</div>
+        <div class="stat-value">120+</div>
+        <div class="stat-label">Bénévoles actifs</div>
+      </div>
+      <div class="stat fade-up" data-delay="200">
+        <div class="stat-icon">🌍</div>
+        <div class="stat-value">3</div>
+        <div class="stat-label">Pays touchés</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- NOTRE MISSION -->
+  <section>
+    <div class="container">
+      <div class="section-title fade-up">
+        <h2>Notre mission</h2>
+        <p>Chaque action que nous menons part d'une conviction simple : l'humanité se construit ensemble.</p>
+      </div>
+      <div class="grid-2">
+        <div class="card fade-up" data-delay="0">
+          <div style="font-size:2rem;margin-bottom:12px;">🤲</div>
+          <h3>Soirées caritatives</h3>
+          <p style="color:var(--text-muted);font-size:0.9rem;line-height:1.7;">Des soirées conviviales pour sensibiliser et collecter des fonds pour nos missions humanitaires.</p>
+        </div>
+        <div class="card fade-up" data-delay="100">
+          <div style="font-size:2rem;margin-bottom:12px;">📚</div>
+          <h3>Fournitures scolaires</h3>
+          <p style="color:var(--text-muted);font-size:0.9rem;line-height:1.7;">Récolte de matériel scolaire pour permettre aux enfants d'apprendre dans de bonnes conditions.</p>
+        </div>
+        <div class="card fade-up" data-delay="200">
+          <div style="font-size:2rem;margin-bottom:12px;">🏡</div>
+          <h3>Brocantes solidaires</h3>
+          <p style="color:var(--text-muted);font-size:0.9rem;line-height:1.7;">Des brocantes organisées pour financer nos projets sur le terrain.</p>
+        </div>
+        <div class="card fade-up" data-delay="300">
+          <div style="font-size:2rem;margin-bottom:12px;">☀️</div>
+          <h3>Dimanches Inayati</h3>
+          <p style="color:var(--text-muted);font-size:0.9rem;line-height:1.7;">Des moments de partage et de solidarité organisés chaque dimanche.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJET TURQUIE -->
+  <section class="bg-blue-light">
+    <div class="container">
+      <div style="display:flex;flex-wrap:wrap;align-items:center;gap:40px;">
+        <div style="flex:1;min-width:260px;" class="fade-left">
+          <div class="label" style="color:var(--blue);margin-bottom:8px;">Focus</div>
+          <h2>Projet Turquie</h2>
+          <p style="color:var(--text-muted);line-height:1.8;margin:16px 0 24px;">
+            Suite aux séismes dévastateurs, nous avons engagé une mission de soutien aux populations sinistrées en Turquie. Aide alimentaire, matériel scolaire, soutien psychologique...
+          </p>
+          <a href="turquie.html" class="btn btn-outline" style="border-color:var(--blue);color:var(--blue);" onmouseover="this.style.background='var(--blue)';this.style.color='#fff'" onmouseout="this.style.background='transparent';this.style.color='var(--blue)'">
+            En savoir plus →
+          </a>
+        </div>
+        <div class="fade-right" style="background:var(--blue);border-radius:var(--radius);padding:40px 32px;text-align:center;color:#fff;flex-shrink:0;min-width:180px;">
+          <div style="font-size:2.5rem;margin-bottom:8px;">🌍</div>
+          <div style="font-size:3rem;font-weight:900;">1€</div>
+          <div style="font-size:0.85rem;opacity:0.85;margin-top:4px;">= 1 espoir renouvelé</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section>
+    <div class="container-sm" style="text-align:center;">
+      <h2 class="fade-up">L'espoir commence par vous</h2>
+      <p class="fade-up" style="color:var(--text-muted);font-size:1.05rem;margin:16px 0 36px;">
+        N'attendez plus. Rejoignez le mouvement Inayati et devenez acteur du changement.
+      </p>
+      <div class="btn-group fade-up" style="justify-content:center;">
+        <a href="dons.html" class="btn btn-primary">Faire un don</a>
+        <a href="contact.html" class="btn btn-outline-dark">Nous rejoindre</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <img src="images/logo.png" alt="Inayati" />
+      <p>Association humanitaire qui transforme chaque geste de solidarité en espoir concret.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Navigation</h4>
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="turquie.html">Projet Turquie</a></li>
+        <li><a href="actions.html">Nos actions</a></li>
+        <li><a href="evenements.html">Événements</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Nous suivre</h4>
+      <ul>
+        <li><a href="https://www.instagram.com/inayati" target="_blank">Instagram @inayati</a></li>
+        <li><a href="mailto:contact@inayati.fr">contact@inayati.fr</a></li>
+        <li><a href="dons.html">Faire un don</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">© 2025 Inayati — Association humanitaire. Tous droits réservés.</div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Faire un don - Inayati</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav>
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo"><img src="images/logo.png" alt="Inayati" /></a>
+    <ul class="nav-links">
+      <li><a href="index.html" data-page="index">Accueil</a></li>
+      <li><a href="turquie.html" data-page="turquie">Projet Turquie</a></li>
+      <li><a href="actions.html" data-page="actions">Nos actions</a></li>
+      <li><a href="evenements.html" data-page="evenements">Nos événements</a></li>
+      <li><a href="dons.html" class="btn-nav active">Faire un don</a></li>
+      <li><a href="contact.html" data-page="contact">Contact</a></li>
+    </ul>
+    <button class="nav-burger" id="nav-burger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+<div class="nav-mobile" id="nav-mobile">
+  <a href="index.html">Accueil</a>
+  <a href="turquie.html">Projet Turquie</a>
+  <a href="actions.html">Nos actions</a>
+  <a href="evenements.html">Nos événements</a>
+  <a href="contact.html">Contact</a>
+  <a href="dons.html" class="btn-nav">Faire un don</a>
+</div>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero bg-warm">
+    <div class="hero-icon" style="background:rgba(245,166,35,0.15);">❤️</div>
+    <h1>Faire un don</h1>
+    <p style="color:var(--orange);font-weight:800;font-size:1.15rem;margin:8px 0 12px;">1€ donné = 1 espoir renouvelé</p>
+    <p>Votre générosité transforme des vies. Chaque euro compte et arrive directement à ceux qui en ont besoin.</p>
+  </section>
+
+  <!-- QR CODE -->
+  <section>
+    <div class="container">
+      <div style="display:flex;flex-wrap:wrap;gap:48px;align-items:center;">
+        <div style="flex:1;min-width:260px;" class="fade-left">
+          <h2>Faites un virement en ligne</h2>
+          <p style="color:var(--text-muted);line-height:1.8;margin:16px 0 24px;font-size:1.05rem;">
+            Scannez ce QR code avec votre téléphone pour accéder à notre page de paiement sécurisée. Simple, rapide et transparent.
+          </p>
+          <ul style="list-style:none;margin-bottom:24px;">
+            <li style="display:flex;align-items:center;gap:10px;margin-bottom:10px;color:var(--text-muted);">
+              <span style="color:var(--orange);font-size:1rem;">★</span>
+              <span style="font-weight:700;">100% des dons vont aux bénéficiaires</span>
+            </li>
+            <li style="display:flex;align-items:center;gap:10px;margin-bottom:10px;color:var(--text-muted);">
+              <span style="color:var(--orange);font-size:1rem;">★</span>
+              <span style="font-weight:700;">Reçu fiscal disponible sur demande</span>
+            </li>
+            <li style="display:flex;align-items:center;gap:10px;color:var(--text-muted);">
+              <span style="color:var(--orange);font-size:1rem;">★</span>
+              <span style="font-weight:700;">Paiement 100% sécurisé</span>
+            </li>
+          </ul>
+        </div>
+        <div class="fade-right" style="flex-shrink:0;">
+          <div style="background:#fff;border-radius:24px;padding:24px;box-shadow:var(--shadow-lg);border:1px solid var(--border);">
+            <div style="display:flex;align-items:center;gap:8px;margin-bottom:16px;">
+              <span style="color:var(--orange);font-size:1.1rem;">⬜</span>
+              <span style="font-weight:700;font-size:0.85rem;color:var(--text-muted);">Scanner pour donner</span>
+            </div>
+            <img src="images/qr.png" alt="QR Code don Inayati" style="width:224px;height:224px;object-fit:contain;display:block;margin:0 auto;" />
+            <p style="text-align:center;font-size:0.78rem;color:var(--text-muted);margin-top:12px;font-weight:700;">
+              Pointez votre appareil photo vers ce code
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- IMPACT -->
+  <section class="bg-card" style="background:var(--card-bg);">
+    <div class="container">
+      <div class="section-title fade-up">
+        <h2>L'impact de votre don</h2>
+        <p>Voici ce que votre générosité peut concrètement changer</p>
+      </div>
+      <div class="grid-3">
+        <div class="card card-orange fade-up" data-delay="0">
+          <div style="font-size:1.6rem;font-weight:900;color:var(--orange);margin-bottom:8px;">5€</div>
+          <p style="color:var(--text-muted);font-size:0.875rem;line-height:1.7;">Un cahier et des crayons pour un enfant</p>
+        </div>
+        <div class="card card-orange fade-up" data-delay="80">
+          <div style="font-size:1.6rem;font-weight:900;color:var(--orange);margin-bottom:8px;">10€</div>
+          <p style="color:var(--text-muted);font-size:0.875rem;line-height:1.7;">Un repas chaud pour une famille</p>
+        </div>
+        <div class="card card-orange fade-up" data-delay="160">
+          <div style="font-size:1.6rem;font-weight:900;color:var(--orange);margin-bottom:8px;">20€</div>
+          <p style="color:var(--text-muted);font-size:0.875rem;line-height:1.7;">Des fournitures scolaires complètes</p>
+        </div>
+        <div class="card card-orange fade-up" data-delay="240">
+          <div style="font-size:1.6rem;font-weight:900;color:var(--orange);margin-bottom:8px;">50€</div>
+          <p style="color:var(--text-muted);font-size:0.875rem;line-height:1.7;">Un kit d'hygiène pour une famille</p>
+        </div>
+        <div class="card card-orange fade-up" data-delay="320">
+          <div style="font-size:1.6rem;font-weight:900;color:var(--orange);margin-bottom:8px;">100€</div>
+          <p style="color:var(--text-muted);font-size:0.875rem;line-height:1.7;">Une aide alimentaire mensuelle</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section style="text-align:center;">
+    <div class="container-sm">
+      <p class="fade-up" style="font-size:1.4rem;font-weight:800;margin-bottom:8px;">"Chaque geste compte et vous en faites partie…"</p>
+      <p class="fade-up" style="color:var(--text-muted);margin-bottom:32px;">Merci pour votre soutien et votre générosité.</p>
+      <a href="contact.html" class="btn btn-outline fade-up">Nous rejoindre en tant que bénévole</a>
+    </div>
+  </section>
+
+</main>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <img src="images/logo.png" alt="Inayati" />
+      <p>Association humanitaire qui transforme chaque geste de solidarité en espoir concret.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Navigation</h4>
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="turquie.html">Projet Turquie</a></li>
+        <li><a href="actions.html">Nos actions</a></li>
+        <li><a href="evenements.html">Événements</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Nous suivre</h4>
+      <ul>
+        <li><a href="https://www.instagram.com/inayati" target="_blank">Instagram @inayati</a></li>
+        <li><a href="mailto:contact@inayati.fr">contact@inayati.fr</a></li>
+        <li><a href="dons.html">Faire un don</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">© 2025 Inayati — Association humanitaire. Tous droits réservés.</div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
